@@ -7,14 +7,14 @@ Execute following commands
 ```sh
 $ cd
 $ git clone https://github.com/karaage0703/mac-dotfiles.git
-$ ./install.sh
+$ cd ~/mac-dotfiles
+$ ./sync.sh
 ```
 
 # Update
 ```sh
 $ cd ~/mac-dotfiles
-$ git pull
-$ ./install.sh
+$ ./sync.sh
 ```
 
 # Credits - for more than simple inspiration
