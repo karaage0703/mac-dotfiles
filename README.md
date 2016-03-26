@@ -13,5 +13,6 @@ $ ./install.sh
 # Update
 ```sh
 $ cd ~/mac-dotfiles
+$ git pull
 $ ./install.sh
 ```
