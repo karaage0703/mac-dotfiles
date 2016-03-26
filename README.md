@@ -17,6 +17,7 @@ $ cd ~/mac-dotfiles
 $ ./sync.sh
 ```
 
-# Credits - for more than simple inspiration
+# Special Thanks
+- https://gist.github.com/disktnk/4104284
 - https://github.com/OzzyCzech/dotfiles
 - https://github.com/milkbikis/dotfiles-mac/
