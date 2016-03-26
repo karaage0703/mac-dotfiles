@@ -16,3 +16,7 @@ $ cd ~/mac-dotfiles
 $ git pull
 $ ./install.sh
 ```
+
+# Credits - for more than simple inspiration
+- https://github.com/OzzyCzech/dotfiles
+- https://github.com/milkbikis/dotfiles-mac/
