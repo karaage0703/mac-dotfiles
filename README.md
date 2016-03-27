@@ -2,12 +2,14 @@
 private dotfiles for mac
 
 # Install
-Execute following commands
+Execute following commands  
+(Please install `brew` before execute commands)
 
 ```sh
 $ cd
 $ git clone https://github.com/karaage0703/mac-dotfiles.git
 $ cd ~/mac-dotfiles
+$ ./setup.sh
 $ ./sync.sh
 ```
 
