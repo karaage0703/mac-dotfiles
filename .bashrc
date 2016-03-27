@@ -9,3 +9,8 @@ alias ll='ls -l -h'
 alias la='ls -lA'
 alias du='du -kh' 
 alias df='df -kTh'
+
+# for pyenv
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
+export PYENV_VIRTUALENV_DISABLE_PROMPT=1
