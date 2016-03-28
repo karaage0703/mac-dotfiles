@@ -10,6 +10,9 @@ alias la='ls -lA'
 alias du='du -kh' 
 alias df='df -kTh'
 
+# completion for sudo command
+complete -cf sudo
+
 # for pyenv
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
