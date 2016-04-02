@@ -7,8 +7,8 @@ alias _='cd -'
 alias ls='ls -hF -G'  # add colors for filetype recognition
 alias ll='ls -l -h'
 alias la='ls -lA'
-alias du='du -kh' 
-alias df='df -kTh'
+alias du='du -h' 
+alias df='df -h'
 
 # completion for sudo command
 complete -cf sudo
@@ -17,3 +17,8 @@ complete -cf sudo
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 export PYENV_VIRTUALENV_DISABLE_PROMPT=1
+
+
+# for OSX setting
+
+
