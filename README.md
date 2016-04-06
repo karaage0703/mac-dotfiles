@@ -9,6 +9,7 @@ Execute following commands
 $ cd
 $ git clone https://github.com/karaage0703/mac-dotfiles.git
 $ cd ~/mac-dotfiles
+$ ./homebrew.sh
 $ ./setup.sh
 $ ./sync.sh
 ```
@@ -23,3 +24,4 @@ $ ./sync.sh
 - https://gist.github.com/disktnk/4104284
 - https://github.com/OzzyCzech/dotfiles
 - https://github.com/milkbikis/dotfiles-mac/
+- https://github.com/bkuhlmann/osx
