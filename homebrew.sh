@@ -19,5 +19,8 @@ brew install byobu
 # Vim
 brew install vim
 
+# Git
+brew install git
+
 # Pandoc
 brew install pandoc
