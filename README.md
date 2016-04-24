@@ -25,3 +25,4 @@ $ ./sync.sh
 - https://github.com/OzzyCzech/dotfiles
 - https://github.com/milkbikis/dotfiles-mac/
 - https://github.com/bkuhlmann/osx
+- https://github.com/herrbischoff/awesome-osx-command-line
