@@ -24,3 +24,13 @@ brew install git
 
 # Pandoc
 brew install pandoc
+
+# wget
+brew install wget
+
+# From here Homebrew Cask
+brew tap caskroom/cask
+
+brew cask install atom
+
+brew cask install skitch
