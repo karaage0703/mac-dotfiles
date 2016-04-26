@@ -28,6 +28,9 @@ brew install pandoc
 # wget
 brew install wget
 
+# ctags
+brew install ctags
+
 # From here Homebrew Cask
 brew tap caskroom/cask
 
