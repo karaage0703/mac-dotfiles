@@ -9,6 +9,7 @@ alias ll='ls -l -h'
 alias la='ls -lA'
 alias du='du -h' 
 alias df='df -h'
+alias ctags='ctags -R --extra=+f' # for ctags
 
 # completion for sudo command
 complete -cf sudo
