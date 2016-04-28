@@ -32,8 +32,17 @@ brew install wget
 brew install ctags
 
 # From here Homebrew Cask
+# install Cask
 brew tap caskroom/cask
 
+# editor
 brew cask install atom
 
+# drawing
 brew cask install skitch
+
+# burn dvd
+brew cask install burn
+
+# open office
+burn cask install openoffice
