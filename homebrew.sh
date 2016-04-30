@@ -4,12 +4,12 @@
 # Installs Homebrew software.
 
 # EXECUTION
-# Homebrew
+# Install Homebrew if you don't have
 if ! command -v brew > /dev/null; then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-# Pyenv
+# python virtual enviroment 
 brew install pyenv
 brew install pyenv-virtualenv
 
@@ -22,33 +22,31 @@ brew install vim
 # git
 brew install git
 
-# convert markdown to doc
+# convert markdown to document file
 brew install pandoc
 
-# wget
+# file downloader
 brew install wget
 
-# ctags
+# function jump for programming
 brew install ctags
 
-# From here Homebrew Cask
-# install Cask
+# FROM HERE HOMEBREW CASK Packages
+# Install Homebrew cask
 brew tap caskroom/cask
-brew tap caskroom/homebrew-versions
+brew tap caskroom/homebrew-versions		# for firefox-jp ext...
 
-# editor
+# text editor
 brew cask install macvim
-
-# editor
 brew cask install atom
 
-# drawing
+# drawing tool
 brew cask install skitch
 
 # burning dvd tool
 brew cask install burn
 
-# clipboard
+# clipboard extender
 brew cask install clipmenu
 
 # free office software
@@ -56,20 +54,17 @@ brew cask install openoffice
 
 # web browser
 brew cask install google-chrome
-
-# web browser
 brew cask install firefox-ja
 
-# file sharing
+# file/text sharing
 brew cask install dropbox
-
-# memo sharing
 brew cask install evernote
+brew cask install google-drive
 
-# graphic
+# graphic editor
 brew cask install gimp
 
-# delete exif information
+# delete exif information tool
 brew cask install imageoptim
 
 # video player
@@ -78,13 +73,11 @@ brew cask install vlc
 # audio programming
 brew cask install sonic-pi
 
-# file sharing
-brew cask install google-drive
+# circuit and board editor
+brew cask install fritzing		# simple
+brew cask install kicad				# high functionality
 
-# brief circuit and board editor
-brew cask install fritzing
-
-# sftp software
+# ftp/sftp software
 brew cask install filezilla
 
 # midi composer
