@@ -13,3 +13,6 @@ printf "Finder - Show status bar\n"
 defaults write com.apple.finder ShowStatusBar -bool true
 
 killall Finder
+
+printf "delete Japanese file name of screen shot"
+defaults write com.apple.screencapture name ""
