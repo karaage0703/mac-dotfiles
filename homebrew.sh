@@ -38,7 +38,6 @@ brew tap caskroom/homebrew-versions		# for firefox-jp ext...
 
 # text editor
 brew cask install macvim
-brew cask install atom
 
 # drawing tool
 brew cask install skitch
@@ -82,3 +81,10 @@ brew cask install filezilla
 
 # midi composer
 brew cask install aria-maestosa
+
+# programming IDE
+brew cask install processing
+brew cask install arduino
+
+# unarchiver
+brew cask install the-unarchiver
