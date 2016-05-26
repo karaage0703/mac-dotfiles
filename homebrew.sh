@@ -72,15 +72,16 @@ brew cask install vlc
 # audio programming
 brew cask install sonic-pi
 
+# midi composer
+brew cask install aria-maestosa
+
 # circuit and board editor
 brew cask install fritzing		# simple
 brew cask install kicad				# high functionality
+brew cask install ltspice			# circuit simulator
 
 # ftp/sftp software
 brew cask install filezilla
-
-# midi composer
-brew cask install aria-maestosa
 
 # programming IDE
 brew cask install processing
