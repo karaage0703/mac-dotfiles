@@ -14,6 +14,14 @@ alias ctags='ctags -R --extra=+f' # for ctags
 # completion for sudo command
 complete -cf sudo
 
+# completion for git
+source /usr/local/etc/bash_completion.d/git-prompt.sh
+source /usr/local/etc/bash_completion.d/git-completion.bash
+
+# display branch name in terminal
+GIT_PS1_SHOWDIRTYSTATE=true
+export PS1='\h\[\033[00m\]:\W\[\033[31m\]$(__git_ps1 [%s])\[\033[00m\]\$ '
+
 # for pyenv
 eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
