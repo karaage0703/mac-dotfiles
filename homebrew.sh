@@ -89,3 +89,4 @@ brew cask install arduino
 
 # unarchiver
 brew cask install the-unarchiver
+brew cask install p7zip
