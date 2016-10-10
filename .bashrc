@@ -20,7 +20,7 @@ source /usr/local/etc/bash_completion.d/git-completion.bash
 
 # display branch name in terminal
 GIT_PS1_SHOWDIRTYSTATE=true
-export PS1='\u@\h \W$(__git_ps1 "[\[\033[32m\]%s\[\033[0m\]]")\$ '
+export PS1='\[\033[32m\]\u@\h\[\033[00m\]:\[\033[34m\]\w\[\033[31m\]$(__git_ps1)\[\033[00m\]\$ '
 
 # for pyenv
 eval "$(pyenv init -)"
