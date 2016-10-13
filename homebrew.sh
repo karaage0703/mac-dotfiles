@@ -9,7 +9,7 @@ if ! command -v brew > /dev/null; then
   ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-# python virtual enviroment 
+# python virtual enviroment
 brew install pyenv
 brew install pyenv-virtualenv
 
@@ -17,7 +17,8 @@ brew install pyenv-virtualenv
 brew install byobu
 
 # editor
-brew install vim
+brew install lua
+brew install vim --with-lua
 
 # git
 brew install git
