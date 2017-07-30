@@ -32,6 +32,9 @@ brew install wget
 # function jump for programming
 brew install ctags
 
+# unarchiver
+brew install p7zip
+
 # FROM HERE HOMEBREW CASK Packages
 # Install Homebrew cask
 brew tap caskroom/cask
@@ -47,19 +50,19 @@ brew cask install skitch
 brew cask install burn
 
 # clipboard extender
-brew cask install clipmenu
+brew cask install clipy
 
 # free office software
 brew cask install openoffice
 
 # web browser
 brew cask install google-chrome
-brew cask install firefox-ja
+brew cask install firefox
 
 # file/text sharing
 brew cask install dropbox
 brew cask install evernote
-brew cask install google-drive
+# brew cask install google-drive
 
 # graphic editor
 brew cask install gimp
@@ -90,4 +93,7 @@ brew cask install arduino
 
 # unarchiver
 brew cask install the-unarchiver
-brew cask install p7zip
+
+# synology
+brew tap caskroom/drivers
+brew cask install synology-cloud-station-drive

@@ -1,7 +1,7 @@
 #!/bin/bash
 git pull
 function doIt() {
-	rsync --exclude ".git/" --exclude ".DS_Store" --exclude ".gitconfig" --exclude "sync.sh" --exclude "*.md" --exclude "LICENSE" --exclude ".bashrc" --exclude ".bash_profile" --exclude "setup.sh" --exclude "defaults.sh"  --exclude "homebrew.sh" -av . ~
+	rsync --exclude ".git/" --exclude ".DS_Store" --exclude ".gitconfig" --exclude "sync.sh" --exclude "*.md" --exclude "LICENSE" --exclude "defaults.sh"  --exclude "homebrew.sh" -av . ~
 }
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
 	doIt

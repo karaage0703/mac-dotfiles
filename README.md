@@ -10,7 +10,6 @@ $ cd
 $ git clone https://github.com/karaage0703/mac-dotfiles.git
 $ cd ~/mac-dotfiles
 $ ./homebrew.sh
-$ ./setup.sh
 $ ./sync.sh
 ```
 
