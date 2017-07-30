@@ -3,12 +3,6 @@
 # DESCRIPTION
 # Installs Homebrew software.
 
-# EXECUTION
-# Install Homebrew if you don't have
-if ! command -v brew > /dev/null; then
-  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-fi
-
 # python virtual enviroment
 brew install pyenv
 brew install pyenv-virtualenv

@@ -1,10 +1,15 @@
 # mac-dotfiles
 private dotfiles for mac
 
-# Install
-Execute following commands  
-(Please install `brew` before execute commands)
 
+# Preparation
+Execute following command for installing `homebrew`:
+```sh
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+# Install
+Execute following commands:
 ```sh
 $ cd
 $ git clone https://github.com/karaage0703/mac-dotfiles.git
@@ -19,7 +24,7 @@ $ cd ~/mac-dotfiles
 $ ./sync.sh
 ```
 
-# Special Thanks
+# References
 - https://gist.github.com/disktnk/4104284
 - https://github.com/OzzyCzech/dotfiles
 - https://github.com/milkbikis/dotfiles-mac/
