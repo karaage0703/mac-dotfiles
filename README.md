@@ -14,6 +14,7 @@ Execute following commands:
 $ cd
 $ git clone https://github.com/karaage0703/mac-dotfiles.git
 $ cd ~/mac-dotfiles
+$ ./defaults.sh
 $ ./homebrew.sh
 $ ./sync.sh
 ```
