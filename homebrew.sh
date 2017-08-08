@@ -46,6 +46,9 @@ brew cask install burn
 # clipboard extender
 brew cask install clipy
 
+# editor
+brew cask install atom
+
 # free office software
 brew cask install openoffice
 
@@ -91,3 +94,7 @@ brew cask install the-unarchiver
 # synology
 brew tap caskroom/drivers
 brew cask install synology-cloud-station-drive
+
+
+# SD formatter
+brew cask install sdformatter
