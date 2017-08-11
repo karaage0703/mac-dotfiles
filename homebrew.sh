@@ -95,6 +95,8 @@ brew cask install the-unarchiver
 brew tap caskroom/drivers
 brew cask install synology-cloud-station-drive
 
-
 # SD formatter
 brew cask install sdformatter
+
+# Virtual Machine
+brew cask install virtualbox
