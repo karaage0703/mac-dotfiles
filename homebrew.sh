@@ -50,7 +50,7 @@ brew cask install clipy
 brew cask install atom
 
 # free office software
-brew cask install openoffice
+brew cask install libreoffice
 
 # web browser
 brew cask install google-chrome
