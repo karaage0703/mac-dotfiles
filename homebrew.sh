@@ -37,6 +37,9 @@ brew tap caskroom/homebrew-versions		# for firefox-jp ext...
 # text editor
 brew cask install macvim
 
+# binary editor
+brew cask install 0xed
+
 # drawing tool
 brew cask install skitch
 
