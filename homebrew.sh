@@ -103,3 +103,6 @@ brew cask install sdformatter
 
 # Virtual Machine
 brew cask install virtualbox
+
+# terminal
+brew cask install coolterm
