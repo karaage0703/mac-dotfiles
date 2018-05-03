@@ -34,8 +34,9 @@ brew install p7zip
 brew tap caskroom/cask
 brew tap caskroom/homebrew-versions		# for firefox-jp ext...
 
-# text editor
+# editor
 brew cask install macvim
+brew cask install visual-studio-code
 
 # binary editor
 brew cask install 0xed
