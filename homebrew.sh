@@ -87,6 +87,7 @@ brew cask install ltspice			# circuit simulator
 
 # ftp/sftp software
 brew cask install filezilla
+brew install lftp
 
 # programming IDE
 brew cask install processing
