@@ -16,3 +16,6 @@ killall Finder
 
 printf "delete Japanese file name of screen shot"
 defaults write com.apple.screencapture name ""
+
+printf "Don't make .DS_Store on network volume"
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
