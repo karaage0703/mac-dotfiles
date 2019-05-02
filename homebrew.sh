@@ -103,6 +103,9 @@ brew cask install synology-cloud-station-drive
 # SD formatter
 brew cask install sdformatter
 
+# SD image writer
+brew cask install balenaetcher
+
 # Virtual Machine
 brew cask install virtualbox
 
