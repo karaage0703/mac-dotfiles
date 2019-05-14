@@ -109,5 +109,6 @@ brew cask install balenaetcher
 # Virtual Machine
 brew cask install virtualbox
 
-# terminal
-brew cask install coolterm
+# Docker
+brew install docker
+brew cask install docker
