@@ -112,3 +112,6 @@ brew cask install virtualbox
 # Docker
 brew install docker
 brew cask install docker
+
+# Hyper terminal
+brew cask install hyper
