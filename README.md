@@ -31,6 +31,7 @@ $ ./sync.sh
 - https://github.com/milkbikis/dotfiles-mac/
 - https://github.com/bkuhlmann/osx
 - https://github.com/herrbischoff/awesome-osx-command-line
+- https://qiita.com/ucan-lab/items/ed0687e9cd4a8ea7c76c
 
 # License
 This software is released under the MIT License, see LICENSE.
