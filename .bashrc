@@ -1,6 +1,3 @@
-# initial message
-echo "karaage bashrc"
-
 # File navigation aliases
 alias ..='cd ..'
 alias _='cd -'

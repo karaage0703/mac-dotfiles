@@ -4,15 +4,16 @@ private dotfiles for mac
 
 # Preparation
 Execute following command for installing `homebrew`:
+
 ```sh
-$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
 
 # Install
 Execute following commands:
+
 ```sh
-$ cd
-$ git clone https://github.com/karaage0703/mac-dotfiles.git
+$ cd && git clone https://github.com/karaage0703/mac-dotfiles.git
 $ cd ~/mac-dotfiles
 $ ./defaults.sh
 $ ./homebrew.sh
