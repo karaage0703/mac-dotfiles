@@ -86,7 +86,6 @@ brew cask install kicad				# high functionality
 brew cask install ltspice			# circuit simulator
 
 # ftp/sftp software
-brew cask install filezilla
 brew install lftp
 
 # programming IDE
@@ -115,3 +114,6 @@ brew cask install docker
 
 # Hyper terminal
 brew cask install hyper
+
+# Raspberry Pi Imager
+brew cask install raspberry-pi-imager
