@@ -26,6 +26,7 @@ $ ./homebrew.sh
 - https://github.com/herrbischoff/awesome-osx-command-line
 - https://qiita.com/ucan-lab/items/ed0687e9cd4a8ea7c76c
 - https://marketplace.visualstudio.com/items?itemName=vscodevim.vim
+- https://zenn.dev/ress/articles/069baf1c305523dfca3d
 
 # License
 This software is released under the MIT License, see LICENSE.
