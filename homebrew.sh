@@ -108,7 +108,7 @@ brew install docker
 # brew cask install docker
 
 # Hyper terminal
-# brew cask install hyper
+brew install hyper
 
 # Raspberry Pi Imager
 brew install raspberry-pi-imager
