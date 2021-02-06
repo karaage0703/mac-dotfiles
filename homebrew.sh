@@ -107,8 +107,9 @@ brew install sdformatter
 brew install docker
 # brew cask install docker
 
-# Hyper terminal
-brew install hyper
+# Terminal
+# brew install hyper
+brew install iterm2
 
 # Raspberry Pi Imager
 brew install raspberry-pi-imager
