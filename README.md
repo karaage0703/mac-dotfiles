@@ -1,7 +1,6 @@
 # mac-dotfiles
 private dotfiles for mac
 
-
 # Preparation
 Execute following command for installing `homebrew`:
 
@@ -17,13 +16,6 @@ $ cd && git clone https://github.com/karaage0703/mac-dotfiles.git
 $ cd ~/mac-dotfiles
 $ ./defaults.sh
 $ ./homebrew.sh
-$ ./sync.sh
-```
-
-# Update
-```sh
-$ cd ~/mac-dotfiles
-$ ./sync.sh
 ```
 
 # References
@@ -33,6 +25,7 @@ $ ./sync.sh
 - https://github.com/bkuhlmann/osx
 - https://github.com/herrbischoff/awesome-osx-command-line
 - https://qiita.com/ucan-lab/items/ed0687e9cd4a8ea7c76c
+- https://marketplace.visualstudio.com/items?itemName=vscodevim.vim
 
 # License
 This software is released under the MIT License, see LICENSE.
