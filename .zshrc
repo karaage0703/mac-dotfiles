@@ -21,7 +21,7 @@ fi
 
 setopt magic_equal_subst
 
-PROMPT="$(uname -m) %m$ "
+PROMPT="%n@%m(`uname -m`) %1~ $ "
 
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
