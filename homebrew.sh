@@ -104,7 +104,7 @@ brew install sdformatter
 # brew cask install virtualbox
 
 # Docker
-brew install docker
+# brew install docker
 # brew cask install docker
 
 # Terminal
@@ -113,3 +113,6 @@ brew install iterm2
 
 # Raspberry Pi Imager
 brew install raspberry-pi-imager
+
+# Chat soft
+brew install slack
