@@ -29,3 +29,17 @@ eval "$(pyenv init -)"
 eval "$(pyenv virtualenv-init -)"
 export PYENV_VIRTUALENV_DISABLE_PROMPT=1
 
+export PROMPT="
+%F{green}[%~]%f <`git config user.name`>
+=> %# "
+RPROMPT='%*'
+
+function gitmain() {
+    git config --global user.name "[メインのGitHubアカウント名]"
+    git config --global user.email "[メインのGitHubのメールアドレス]"
+}
+
+function gitsub() {
+    git config --global user.name "[メインのGitHubアカウント名]"
+    git config --global user.email "[メインのGitHubのメールアドレス]"
+}
