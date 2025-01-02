@@ -21,8 +21,6 @@ fi
 
 setopt magic_equal_subst
 
-PROMPT="%n@%m(`uname -m`) %1~ $ "
-
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
@@ -37,9 +35,11 @@ RPROMPT='%*'
 function gitmain() {
     git config --global user.name "[メインのGitHubアカウント名]"
     git config --global user.email "[メインのGitHubのメールアドレス]"
+    source ~/.zshrc
 }
 
 function gitsub() {
-    git config --global user.name "[メインのGitHubアカウント名]"
-    git config --global user.email "[メインのGitHubのメールアドレス]"
+    git config --global user.name "[サブのGitHubアカウント名]"
+    git config --global user.email "[サブのGitHubのメールアドレス]"
+    source ~/.zshrc
 }
